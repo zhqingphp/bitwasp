@@ -19,6 +19,8 @@
       "Web3\\":"composer/web3.php/src/",
       "Web3p\\EthereumUtil\\":"composer/ethereum-util/src/",
       "etherscan\\api\\":"composer/etherscan-api/src/",
+      "phpseclib\\Crypt\\":"composer/phpseclib/Crypt/",
+      "phpseclib\\Math\\":"composer/phpseclib/Math/",
       "Comely\\DataTypes\\":[
         "composer/data-types/src/"
       ]
@@ -29,8 +31,6 @@
     "psr-4":{
       "BitWasp\\Bitcoin\\Tests\\":"tests/",
       "IEXBase\\TronAPI\\Test\\":"composer/tron-api/tests/",
-      "phpseclib\\Crypt\\":"composer/phpseclib/Crypt/",
-      "phpseclib\\Math\\":"composer/phpseclib/Math/",
       "Test\\":[
         "composer/web3.php/test/",
         "composer/ethereum-util/test/"
