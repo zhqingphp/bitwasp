@@ -1,0 +1,43 @@
+{
+  "name":"zhqingphp/bitwasp",
+  "description":"PHP Bitcoin library with functions for transactions, signatures, serialization, Random/Deterministic ECDSA keys, blocks, RPC bindings",
+  "type":"library",
+  "homepage":"https://github.com/zhqingphp/bitwasp",
+  "license":"Unlicense",
+  "authors":[
+    {
+      "name":"Thomas Kerin",
+      "homepage":"https://thomaskerin.io",
+      "role":"Author"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+      "BitWasp\\Expand\\":"Expand/",
+      "BitWasp\\Bitcoin\\":"src/",
+      "IEXBase\\TronAPI\\":"composer/tron-api/src/",
+      "Web3\\":"composer/web3.php/src/",
+      "Web3p\\EthereumUtil\\":"composer/ethereum-util/src/",
+      "etherscan\\api\\":"composer/etherscan-api/src/",
+      "Comely\\DataTypes\\":[
+        "composer/data-types/src/"
+      ]
+    },
+    "files":["src/Script/functions.php"]
+  },
+  "autoload-dev":{
+    "psr-4":{
+      "BitWasp\\Bitcoin\\Tests\\":"tests/",
+      "IEXBase\\TronAPI\\Test\\":"composer/tron-api/tests/",
+      "Test\\":[
+        "composer/web3.php/test/",
+        "composer/ethereum-util/test/"
+      ]
+    }
+  },
+  "require_dev":{
+  },
+  "suggest":{},
+  "require-dev":{
+  }
+}
