@@ -29,13 +29,13 @@
     "psr-4":{
       "BitWasp\\Bitcoin\\Tests\\":"tests/",
       "IEXBase\\TronAPI\\Test\\":"composer/tron-api/tests/",
+      "phpseclib\\Crypt\\":"composer/phpseclib/Crypt/",
+      "phpseclib\\Math\\":"composer/phpseclib/Math/",
       "Test\\":[
         "composer/web3.php/test/",
         "composer/ethereum-util/test/"
       ]
     }
-  },
-  "require_dev":{
   },
   "suggest":{},
   "require-dev":{
